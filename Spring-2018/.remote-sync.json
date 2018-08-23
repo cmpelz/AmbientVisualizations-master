@@ -1,0 +1,19 @@
+{
+  "logger": {
+    "title": "Remote Sync"
+  },
+  "uploadOnSave": true,
+  "useAtomicWrites": false,
+  "deleteLocal": false,
+  "hostname": "sysnet.cs.williams.edu",
+  "port": "22",
+  "target": "/home/19cmp5/public_html/AV-copy/Spring-2018",
+  "ignore": [
+    ".remote-sync.json",
+    ".git/**"
+  ],
+  "username": "19cmp5",
+  "password": "michelle",
+  "watch": [],
+  "transport": "scp"
+}
